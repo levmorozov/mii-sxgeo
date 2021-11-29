@@ -1,0 +1,22 @@
+{
+  "name": "levmorozov/mii-sxgeo",
+  "description": "Mii extension for working with SypexGeo",
+  "type": "mii-component",
+  "minimum-stability": "dev",
+  "require": {
+    "levmorozov/mii": "^1.11",
+    "php": ">=8.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lev Morozov",
+      "email": "mail@levmorozov.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mii\\sxgeo\\": "src/"
+    }
+  }
+}
